@@ -12,9 +12,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/BTN_entrar"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="43dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="30dp"
-            android:layout_marginRight="30dp" tools:text="Entrar"/>
+            tools:text="Entrar" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="43dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="30dp"
+        />
     <TextView
             android:text="@string/textview1"
             android:layout_width="133dp"
@@ -22,21 +22,21 @@
             android:id="@+id/textView"
             app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="448dp"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="232dp"
-            android:layout_marginRight="232dp" tools:text="Ingrese su usuario"/>
+            tools:text="Ingrese su usuario"/>
     <TextView
             android:text="@string/textview2"
             android:layout_width="80dp"
             android:layout_height="22dp"
             android:id="@+id/textView2" android:layout_marginBottom="356dp"
             app:layout_constraintBottom_toTopOf="@+id/BTN_entrar" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="88dp" android:layout_marginRight="88dp" tools:text="Contraseña"/>
+            android:layout_marginEnd="88dp"  tools:text="Contraseña"/>
     <EditText
             android:layout_width="174dp"
             android:layout_height="35dp"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/editText3"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="204dp"
+            app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="204dp" android:layout_marginBottom="297dp"
             app:layout_constraintBottom_toTopOf="@+id/BTN_entrar" android:autofillHints=""/>
 </android.support.constraint.ConstraintLayout>
