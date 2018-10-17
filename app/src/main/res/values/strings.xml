@@ -3,4 +3,7 @@
     <string name="button10">Button</string>
     <string name="textview1">TextView</string>
     <string name="textview2">TextView</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="ingrese_su_email">Ingrese su email</string>
+    <string name="contrase_a">Contraseña</string>
 </resources>

@@ -8,29 +8,30 @@
         tools:context=".MainActivity">
 
     <Button
-            android:text="@string/button10"
+            android:text="@string/ingresar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/BTN_entrar"
-            tools:text="Entrar" app:layout_constraintBottom_toBottomOf="parent"
+            android:id="@+id/BTN_ingresar"
+            tools:text="ingresar" app:layout_constraintBottom_toBottomOf="parent"
             android:layout_marginBottom="43dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="30dp"
         />
     <TextView
-            android:text="@string/textview1"
+            android:text="@string/ingrese_su_email"
             android:layout_width="133dp"
             android:layout_height="24dp"
             android:id="@+id/textView"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="524dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="260dp"
-            tools:text="Ingrese su usuario" />
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="528dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="232dp"
+            tools:text="Ingrese su email" android:layout_marginRight="232dp"/>
     <TextView
-            android:text="@string/textview2"
+            android:text="@string/contrase_a"
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:id="@+id/textView2"
-            tools:text="Contraseña" android:layout_marginBottom="27dp"
+            tools:text="Contraseña"
+            android:layout_marginBottom="23dp"
             app:layout_constraintBottom_toTopOf="@+id/editText2" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="312dp" android:layout_marginRight="312dp"/>
+            android:layout_marginEnd="284dp" android:layout_marginRight="284dp"/>
     <EditText
             android:layout_width="289dp"
             android:layout_height="wrap_content"
@@ -38,15 +39,15 @@
             android:ems="10"
             android:id="@+id/editText"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="106dp" android:layout_marginRight="106dp" android:layout_marginTop="16dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+            android:layout_marginEnd="76dp" android:layout_marginRight="76dp" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView" android:autofillHints=""/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:ems="10"
             android:id="@+id/editText2"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="335dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="178dp"
-            android:layout_marginRight="178dp"/>
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="340dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="148dp"
+            android:layout_marginRight="148dp" android:autofillHints=""/>
 </android.support.constraint.ConstraintLayout>
